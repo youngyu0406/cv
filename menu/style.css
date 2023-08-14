@@ -1,46 +1,47 @@
 /*menu-bar*/
 
 header {
-    margin-top: -2ex;
-    height: 50px;
-    padding-left: 5ex;
-    margin-bottom: 0ex;
-    color: white;
-    background: rgb(53, 53, 53);
-    font-weight: 200;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  margin-top: -2ex;
+  height: 50px;
+  padding-left: 5ex;
+  margin-bottom: 0ex;
+  color: white;
+  background: rgb(53, 53, 53);
+  font-weight: 200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 span {
-    margin-right: 10ex;
+  margin-right: 10ex;
 }
 
 
 /*line-breaking*/
 div{
-  word-break: inherent
+word-break: inherent
 }
 
 /*bullet-points*/
 li {
-  margin-bottom: 1ex
+margin-bottom: 1ex
 }
 
 div.main_content {
-  padding: 3ex;
-  word-break: normal;
+padding-top: 2ex;
+padding-left: 3ex;
+word-break: normal;
 }
 
 h4.sub_title {
-  color: #777777
+color: #777777
 }
 
 li.research_interests {
-  margin-bottom: 1ex;
+margin-bottom: 1ex;
 }
 
 li.extended {
-    margin-bottom: 2ex;
+  margin-bottom: 2ex;
 }

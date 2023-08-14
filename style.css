@@ -29,7 +29,8 @@ margin-bottom: 1ex
 }
 
 div.main_content {
-padding: 3ex;
+padding-top: 2ex;
+padding-left: 3ex;
 word-break: normal;
 }
 
