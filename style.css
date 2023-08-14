@@ -45,3 +45,10 @@ margin-bottom: 1ex;
 li.extended {
   margin-bottom: 2ex;
 }
+
+li.sub_list {
+  /*list-style-type: "-";*/
+  list-style-type: none;
+  margin-top: -.5ex;
+  margin-bottom: 1.5ex;
+}
