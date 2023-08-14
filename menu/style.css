@@ -40,3 +40,7 @@ h4.sub_title {
 li.research_interests {
   margin-bottom: 1ex;
 }
+
+li.extended {
+    margin-bottom: 2ex;
+}
