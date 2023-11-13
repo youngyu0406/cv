@@ -36,23 +36,19 @@ li.extended{
 header.header_background {
     background-color: #f5f5f5;
     width: 100%;
-    min-width: 120ex;
     height: 5ex;
 }
 
 div.page_background{
     background-color: #f5f5f5;
     max-width: 250ex;
-    min-width: 120ex;
     margin: 0;
-    display: absolute;
-    justify-content: left;
-    overflow: scroll;
-    padding-left: 15ex
+    display: flex;
+    justify-content: center;
 }
 
 div.page_foreground{
-    margin: 2ex 10ex 10ex auto;
+    margin: 2ex 10% 10ex 10%;
     padding: 1ex 3%;
     background-color: white;
     width: 130ex;
@@ -103,8 +99,6 @@ div.content_right {
     padding-left: 5ex;
     height: inherit;
     width: 90ex;
-    min-width: 90ex;
-    max-width: 90ex;
     background-color: white;
     text-align: left;
 }
@@ -127,81 +121,3 @@ p.content {
     word-break: keep-all;
     justify-content: center;
 }
-
-h1.title{
-    font-size: 22.5pt;
-    width: 120ex;
-    margin-top: -2.5ex;
-    margin-bottom: .5ex;
-    padding-left: 10ex;
-    display: fixed;
-    align-items: left;
-}
-
-h1.main{
-    font-size: 22.5pt;
-    width: 120ex;
-    margin-top: 1ex;
-    margin-bottom: 1ex;
-    padding-left: 1ex;
-    display: fixed;
-    align-items: left;
-}
-
-h2.main{
-    font-size: 22.5pt;
-    width: 120ex;
-    margin-top: 2ex;
-    margin-bottom: 2ex;
-    padding-left: 2ex;
-    display: fixed;
-    align-items: left;
-}
-
-p.main{
-    font-size: 12pt;
-    width: 120ex;
-    margin-top: 1ex;
-    padding-left: 3ex;
-    padding-right: 3ex;
-    display: fixed;
-    text-justify: inter-word;
-    align-items: left;
-    line-height:150%
-}
-
-
-li.lev1{
-    list-style-type : square;
-    padding-left:5ex;
-}
-
-li.lev2{
-    list-style-type : circle;
-    padding-left:10ex;
-}
-
-li.lev3{
-    list-style-type : none;
-    padding-left:15ex;
-}
-
-li.cont{
-    list-style-type: none;
-    padding-left: 12.5ex;
-}
-ul.announce{
-    list-style-type : square;
-    padding-left:5ex;
-}
-
-a.contact{
-    color: #356e77;
-}
-
-div.image_container{
-    max-width: 120ex;
-    min-width: 120ex;
-    text-align: center;
-}
-
